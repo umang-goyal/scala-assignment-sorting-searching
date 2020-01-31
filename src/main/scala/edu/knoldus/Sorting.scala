@@ -57,17 +57,17 @@ class Sorting {
 }
 
   def insertionSort(array: Array[Int]): Array[Int] = {
-  val length: Int = array.length
-  for (i <- 0 until length) {
-    val key = array(i)
-    var j = i
-    while (j > 0 && array(j - 1) > key) {
-      array(j) = array(j - 1)
-      j = j - 1
+    for(i<-1 until array.length-1)
+    {
+      for(j<- i to 1 by -1)
+      {
+        if(array(j-1)>array(j))
+        {
+          val temp=array(j)
+          array(j)=array(j-1)
+          array(j-1)=temp
+        }
+      }
     }
-    array(j) = key
+    array
   }
-
-  array
-}
-}

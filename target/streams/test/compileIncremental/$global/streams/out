@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/prabhat/my-work/assignment-scala01-1/src/test/scala/edu/knoldus/SearchingTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/prabhat/my-work/assignment-scala01-1/src/test/scala/edu/knoldus/SearchingTest.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/prabhat/my-work/assignment-scala01-1/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.0:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.0:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 6e278f89 for Scala compiler version 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/prabhat/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/prabhat/my-work/assignment-scala01-1/target/scala-2.12/test-classes:/home/prabhat/my-work/assignment-scala01-1/target/scala-2.12/classes:/home/prabhat/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.4.jar:/home/prabhat/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar:/home/prabhat/.sbt/boot/scala-2.12.4/lib/scala-reflect.jar:/home/prabhat/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/home/prabhat/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.438846261 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from edu.knoldus.SearchingTest...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(edu.knoldus.SearchingTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(edu.knoldus.SearchingTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(edu.knoldus.SearchingTest,ModifiedNames(changes = UsedName(typeCheckedConstraint,[Default]), UsedName(AssertionsHelper,[Default]), UsedName(execute$default$2,[Default]), UsedName(note,[Default]), UsedName(run,[Default]), UsedName(withFixture,[Default]), UsedName(assume,[Default]), UsedName(isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(eq,[Default]), UsedName(assertDoesNotCompile,[Default]), UsedName(unconstrainedEquality,[Implicit]), UsedName(finalize,[Default]), UsedName(withClue,[Default]), UsedName(array,[Default]), UsedName(convertEquivalenceToAToBConstraint,[Default]), UsedName(test,[Default]), UsedName(fail,[Default]), UsedName(nestedSuites,[Default]), UsedName(Equalizer,[Default]), UsedName(trap,[Default]), UsedName(registerIgnoredTest,[Default]), UsedName(succeed,[Default]), UsedName(testNames,[Default]), UsedName(execute$default$5,[Default]), UsedName(assertCompiles,[Default]), UsedName(newAssertionFailedException,[Default]), UsedName(hashCode,[Default]), UsedName(suiteName,[Default]), UsedName(NoArgTest,[Default]), UsedName(execute$default$7,[Default]), UsedName(CheckingEqualizer,[Default]), UsedName(SearchingTest,[Default]), UsedName(execute$default$3,[Default]), UsedName(rerunner,[Default]), UsedName(getClass,[Default]), UsedName(runTests,[Default]), UsedName(==,[Default]), UsedName(tags,[Default]), UsedName(execute$default$6,[Default]), UsedName(===,[Default]), UsedName(!=,[Default]), UsedName(convertEquivalenceToAToBConversionConstraint,[Default]), UsedName(ignore,[Default]), UsedName(synchronized,[Default]), UsedName(createCatchReporter,[Default]), UsedName(convertToEqualizer,[Implicit]), UsedName(convertEquivalenceToBToAConstraint,[Default]), UsedName(runTest,[Default]), UsedName(conversionCheckedConstraint,[Default]), UsedName($isInstanceOf,[Default]), UsedName(yeOldeTestNames,[Default]), UsedName(clone,[Default]), UsedName(cancel,[Default]), UsedName(markup,[Default]), UsedName(execute$default$4,[Default]), UsedName(##,[Default]), UsedName(pendingUntilFixed,[Default]), UsedName(suiteId,[Default]), UsedName(testDataFor$default$2,[Default]), UsedName(runNestedSuites,[Default]), UsedName(assert,[Default]), UsedName(convertToCheckingEqualizer,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(execute$default$1,[Default]), UsedName(testDataFor,[Default]), UsedName($init$,[Default]), UsedName(searching,[Default]), UsedName(toString,[Default]), UsedName(newTestCanceledException,[Default]), UsedName(convertEquivalenceToBToAConversionConstraint,[Default]), UsedName(equals,[Default]), UsedName(expectedTestCount,[Default]), UsedName(pending,[Default]), UsedName(assertTypeError,[Default]), UsedName(intercept,[Default]), UsedName(assertionsHelper,[Default]), UsedName(defaultEquality,[Default]), UsedName(edu;knoldus;SearchingTest;init;,[Default]), UsedName(assertThrows,[Default]), UsedName(info,[Default]), UsedName(alert,[Default]), UsedName(registerTest,[Default]), UsedName(testsFor,[Default]), UsedName(lowPriorityTypeCheckedConstraint,[Default]), UsedName(execute,[Default]), UsedName(!==,[Default]), UsedName(assertResult,[Default]), UsedName(styleName,[Default]), UsedName(lowPriorityConversionCheckedConstraint,[Default]), UsedName(asInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(ne,[Default]))) invalidates 1 classes due to The edu.knoldus.SearchingTest has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(unconstrainedEquality,[Implicit]), UsedName(convertToEqualizer,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(edu.knoldus.SearchingTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

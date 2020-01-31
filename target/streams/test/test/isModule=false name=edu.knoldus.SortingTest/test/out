@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSortingTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Insertion Sort *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(3, 4, 5, 3, 2, 1) did not equal Array(1, 2, 3, 3, 4, 5) (SortingTest.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Selection Sort *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(3, 4, 5, 3, 2, 1) did not equal Array(1, 2, 3, 3, 4, 5) (SortingTest.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Bubble Sort *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(3, 4, 5, 3, 2, 1) did not equal Array(1, 2, 3, 3, 4, 5) (SortingTest.scala:21)[0m[0m
